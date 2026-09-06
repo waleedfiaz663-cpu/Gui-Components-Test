@@ -1,10 +1,8 @@
-
 package guicomponentstest;
 
 import javax.swing.*;
 
 public class GuiComponentsTest {
-
    
     public static void main(String[] args) {
         
@@ -19,8 +17,6 @@ public class GuiComponentsTest {
         JButton B = new JButton("Submit");
         
         JButton b1 = new JButton("Not Submit");
-        
-        
         
         JCheckBox cb = new JCheckBox("I Agree");
         
@@ -55,10 +51,9 @@ public class GuiComponentsTest {
         
         jf.add(combobox1);
         
-        
         jf.setSize(300,300);
         
         jf.setVisible(true);
+       
     }
-    
 }
